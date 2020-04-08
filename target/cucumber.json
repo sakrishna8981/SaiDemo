@@ -1,0 +1,321 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Successful login with valid credentials",
+        "description": "",
+        "id": "login;successful-login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 219354525,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16465884549,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "Stepdefinition.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26703097003,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters Username \"test@email.com\"amd Password \"abcabc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@email.com",
+                  "offset": 22
+                },
+                {
+                  "val": "abcabc",
+                  "offset": 51
+                }
+              ],
+              "location": "Stepdefinition.user_enters_username_somethingamd_password_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11260359452,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clicks on Login button",
+            "match": {
+              "location": "Stepdefinition.clicks_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 251973937,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "He can visit the practice page",
+            "match": {
+              "location": "Stepdefinition.he_can_visit_the_practice_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 832820,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "A message is displayed",
+            "match": {
+              "location": "Stepdefinition.a_message_is_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@RegTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "Description: The feature is to test the login functionality",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 31,
+        "name": "Successful login with multiple valid credentials",
+        "description": "",
+        "id": "login;successful-login-with-multiple-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2380202075,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8741187275,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "Stepdefinition.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26795844970,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enter Username test@email.com amd Password abcabc",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@email.com",
+                  "offset": 20
+                },
+                {
+                  "val": "abcabc",
+                  "offset": 48
+                }
+              ],
+              "location": "Stepdefinition.user_enters_username_amd_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11352315235,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "clicks on Login button",
+            "match": {
+              "location": "Stepdefinition.clicks_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 202726789,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "He can visit the practice page",
+            "match": {
+              "location": "Stepdefinition.he_can_visit_the_practice_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 104797,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "A message is displayed",
+            "match": {
+              "location": "Stepdefinition.a_message_is_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@RegTest"
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Successful login with multiple valid credentials",
+        "description": "",
+        "id": "login;successful-login-with-multiple-valid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2166423209,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8285289719,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "Stepdefinition.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22017193213,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enter Username test@email.com amd Password abcabc",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@email.com",
+                  "offset": 20
+                },
+                {
+                  "val": "abcabc",
+                  "offset": 48
+                }
+              ],
+              "location": "Stepdefinition.user_enters_username_amd_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11459707054,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "clicks on Login button",
+            "match": {
+              "location": "Stepdefinition.clicks_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 222808566,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "He can visit the practice page",
+            "match": {
+              "location": "Stepdefinition.he_can_visit_the_practice_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 130462,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "A message is displayed",
+            "match": {
+              "location": "Stepdefinition.a_message_is_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@RegTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "Description: The feature is to test the login functionality",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "login2.feature"
+  }
+]
